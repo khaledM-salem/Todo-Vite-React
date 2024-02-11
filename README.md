@@ -43,7 +43,3 @@ This project can be deployed using Vercel. Simply sign up for a Vercel account, 
 
 This project is licensed under the MIT License. See the [LICENSE](/LICENSE) file for details.
 
-## Acknowledgements
-
-Special thanks to [OpenAI](https://openai.com) for providing the ChatGPT model that helped create this README template.
-
