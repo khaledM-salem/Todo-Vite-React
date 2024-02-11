@@ -1,30 +1,49 @@
-# React + TypeScript + Vite
+# React Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple todo list application built with React. It allows users to add, remove, edit, and mark todo items as completed.
 
-Currently, two official plugins are available:
+![Todo App Screenshot](/path/to/screenshot.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Add new todo items with a title.
+- Remove existing todo items.
+- Edit todo item titles.
+- Mark todo items as completed.
+- Data persistence using browser's local storage.
+- Input validation with error messages using React Hook Form and Zod schema.
+- Responsive design.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Technologies Used
 
-- Configure the top-level `parserOptions` property like this:
+- React
+- TypeScript
+- Vite
+- Zustand (state management)
+- React Hook Form (input validation)
+- Zod (schema validation)
+- React Hot Toast (error messages)
+- CSS (for styling)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Getting Started
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+To run this project locally, follow these steps:
+
+1. Clone this repository.
+2. Navigate to the project directory in your terminal.
+3. Run `npm install` to install dependencies.
+4. Run `npm start` to start the development server.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
+
+## Deployment
+
+This project can be deployed using Vercel. Simply sign up for a Vercel account, import your project, configure the settings, and deploy.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](/LICENSE) file for details.
+
+## Acknowledgements
+
+Special thanks to [OpenAI](https://openai.com) for providing the ChatGPT model that helped create this README template.
+
